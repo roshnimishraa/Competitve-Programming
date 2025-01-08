@@ -3,8 +3,10 @@ Approach : Segment Tree
 Time Complexity: 
 Build: O(n) 
 Query: O(logn) per query Total for q queries: O(n+qlogn) 
+Overall: O(n+qlogn)
+
 Space Complexity: 
-Segment tree storage: O(4n)
+Segment tree storage: O(4n) ~ O(n)
 
   
 #include<iostream>
