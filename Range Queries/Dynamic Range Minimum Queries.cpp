@@ -1,3 +1,15 @@
+Approach: Segment Tree
+
+Time Complexity:
+Building the Segment Tree: O(n)
+Update Operation: O(logn) per update
+Range Query Operation: O(logn) per query
+Total Time Complexity: O(n+qlogn)
+    
+Space Complexity:
+Segment Tree Storage: O(4n)
+Overall: O(n)
+
 #include <iostream>
 using namespace std;
 #include<bits/stdc++.h>
